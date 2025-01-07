@@ -1,0 +1,24 @@
+{
+    "txt-intro-10": "Maxime, développeur [{web}]",
+    "txt-intro-12": "et&nbspd'applications&nbspde&nbspbureau.",
+    "txt-intro-13": "multi-plateforme&nbsp(PC,&nbspmobile...).",
+    "txt-intro-14": "bases&nbspde&nbspdonnées.",
+    "txt-intro-15": "créatif.&nbspversatile.&nbspméthodique.",
+    "txt-intro-under-picture": "Développement logiciel visant l'intégration des meilleures pratiques en CONCEPTION LOGICIELLE, PROGRAMMATION, PLANIFICATION, SÉCURITÉ, INFOGRAPHIE, DÉPLOIEMENT...",
+    "txt-intro-under-picture-2": "Cultiver l'émerveillement et la soif de connaissances.",
+    "txt-demo-node-vue-button-1":"voir la démo en ligne",
+    "txt-demo-node-vue-05": "Node.js, Express.js, Vue, Vuetify, MySQL, Docker.",
+    "txt-demo-node-vue-10": "Démo 'boutique-en-ligne'",
+    "txt-demo-node-vue-15": "Contexte",
+    "txt-demo-node-vue-17": "Simulation à petite échelle d'un commerce en ligne (AEC 'Développement d'Applications de Sites Web Transactionnels', Collège Ahuntsic, 2024).",
+    "txt-demo-node-vue-20": "Technologies utilisées",
+    "txt-demo-node-vue-22": "Côté serveur : Node.js (avec Express). <br>Côté client : Vue + Vuetify. <br>Autres: MySQL, VsCode..",
+    "txt-demo-node-vue-30": "Déploiement",
+    "txt-demo-node-vue-32": "Deux conteneurs Docker sont hébergés sur Azure -- un pour la base de données et l'autre prend en charge l'API (opérations CRUD via des routes URL) et sert la page HTML compilée (SPA) par Vue. qui s'occupe de capter et gèrer les routes côté client.",
+    "txt-demo-node-vue-42": "L'authentification met en branle un module Node qui implémente la gestion des utilisateurs basée sur les sessions, donc un cookie est passé en aller-retour entre le serveur et le client alors que la session est vraiment gèrée côté serveur.).",
+    "txt-demo-node-vue-50": "Vuetify",
+    "txt-demo-node-vue-52": "Les paramètres par défaut de Vuetify permettent de rendre des effets visuels assez modernes et élégants.",
+    "txt-demo-node-vue-60": "Authentification",
+    "txt-demo-node-vue-62": "L'authentification met en branle un module externe Node qui implémente la gestion des utilisateurs basée sur les sessions, donc un cookie est passé en aller-retour entre le serveur et le client alors que la session est vraiment gèrée côté serveur."
+    
+}

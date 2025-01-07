@@ -1,0 +1,185 @@
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+.intro img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    /*width: 100%;*/
+    /*width: 1300px;*/
+    height:415px;
+    /*height: 100%;*/
+    object-fit: cover;
+    /*z-index: 1;*/
+  }
+
+.intro h1{
+    margin-top:80px;
+    color:rgb(230, 230, 230);
+    text-shadow: 0px 0px 15px black,  0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black;
+}
+
+.intro h1 b{
+    color:rgb(204, 204, 204);
+    text-shadow: 0px 0px 0px black;
+    font-weight:200;
+}
+
+.intro #txt-intro-under-picture, .intro #txt-intro-under-picture-2  {
+    font-size: 19px;
+    /*font-style: italic;*/
+    max-width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 75%;
+    text-align:center;
+
+  }
+
+  #txt-intro-under-picture{
+    margin-top: 140px;
+  }
+
+
+/*--------------------------------------------------------------
+# demo-node-vue Section
+--------------------------------------------------------------*/
+
+
+  #demo-node-vue-section  {
+    /* background-color: black; */
+    /*background-image:  url("../img-new/demo-node-vue/BlackAbstractBackground-08-nGoldenSparks-darker.png");*/
+    background-image:  url("../img-new/demo-node-vue/BlackAbstractBackground-08-nGoldenSparks-darker.png");
+    background-size:100% 100%;
+    /*background-size: cover;*/
+  }
+
+  .demo-node-vue .btn-get-started {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid transparent;
+    transition: 0.3s all ease-in-out;
+    font-size: 14px;
+  }
+  
+  .demo-node-vue .btn-get-started:hover {
+    border-color: var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+  }
+  
+  .demo-node-vue h1 {
+    color: var(--heading-color);
+    font-size: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+  }
+  
+  .demo-node-vue p {
+    line-height: 1.7;
+    color: var(--default-color);
+  }
+  
+  .demo-node-vue .swiper-pagination {
+    position: absolute;
+    bottom: 30px;
+  }
+  
+  .demo-node-vue .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 5px;
+    background: #ffffff;
+    opacity: 0.9;
+  }
+  
+  .demo-node-vue .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--accent-color);
+    opacity: 1;
+  }
+  
+  .demo-node-vue .section-subtitle {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    color: var(--default-color);
+  }
+
+  .demo-node-vue .init-swiper img {
+    max-height:270px;
+  }
+
+  .demo-node-vue .swiper-wrapper{
+    transition-timing-function : linear;
+  }
+  
+  .demo-node-vue .carouselIndicators{
+    margin-top:30px ;
+    padding-top:30px;
+  }
+
+  .demo-node-vue .carousel-item p{
+    border-left:solid;
+    border-color:rgb(207, 207, 207);
+    border-width: 3px;
+    padding-left: 20px;
+    margin-left:5px;
+    margin-bottom: 0px;
+  }
+
+  .demo-node-vue .carousel-item .vendor-logo{
+    max-height: 40px;
+    margin: 10px;
+    /*position: static;*/
+    /*text-align: center;*/
+    align-self:center;
+ }
+
+  .demo-node-vue .carousel-item .img-college-ahuntsic{
+    max-height: 110px;
+    margin: 10px;
+    padding:0px;
+    /*position: static;*/
+    /*text-align: center;*/
+    margin:auto;
+    align-self:center;
+
+  }
+
+
+ .carousel.carousel-fade .carousel-item {
+  display: static;
+  opacity: 0;
+  transition: opacity ease-out 2s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+
+/* BON CI BAS
+.demo-node-vue container {
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+
+}
+*/
+
+  /*
+  .carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
+
+*/
+/*
+  .carousel-inner .carousel-item {
+    transition: transform 1s ease; 
+
+  }
+  */
+  

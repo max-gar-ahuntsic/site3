@@ -21,9 +21,9 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #242033; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --default-color: #2a2f35; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #1e1e36; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #211d2e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -41,7 +41,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f3f4f4;
+  --background-color: #f3f4f4;   /*#f3f4f4;*/
   --surface-color: #ffffff;
 }
 
@@ -90,6 +90,7 @@ h6 {
 
 /* PHP Email Form Messages
 ------------------------------*/
+/*
 .php-email-form .error-message {
   display: none;
   background: #df1529;
@@ -139,6 +140,7 @@ h6 {
     transform: rotate(360deg);
   }
 }
+*/
 
 /*--------------------------------------------------------------
 # Global Header
@@ -148,6 +150,7 @@ h6 {
   background-color: var(--background-color);
   padding: 2px 0;
   transition: all 0.5s;
+  width:100%; 
   z-index: 997;
 }
 
@@ -1011,9 +1014,16 @@ section,
   border-radius: 4px;
   position: relative;
   color: var(--accent-color);
-  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
   margin-right: 20px;
   font-size: 16px;
+
+  border-style:solid;
+  border-width: 2px;
+  border-color: var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+
 }
 
 .tabs .service-item .service-contents h3 {
@@ -1024,7 +1034,13 @@ section,
 .tabs .service-item.link {
   padding: 20px;
   margin-bottom: 10px;
-  border-radius: 7px;
+  border-radius: 6px;
+
+  border-style:solid;
+  border-width: 2px;
+  border-color: transparent;
+ 
+
 }
 
 .tabs .service-item.link .service-contents {
@@ -1037,6 +1053,7 @@ section,
 
 .tabs .service-item.link:hover {
   background: color-mix(in srgb, var(--default-color), transparent 96%);
+
 }
 
 .tabs .service-item.link:hover .service-icon {
@@ -1046,12 +1063,32 @@ section,
 
 .tabs .service-item.link.active {
   background: var(--surface-color);
+
+  border-style:solid;
+  border-width: 2px;
+  border-color: var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+
 }
 
 .tabs .service-item.link.active .service-icon {
   background-color: var(--accent-color);
   color: var(--contrast-color);
+ 
 }
+
+/*
+.tabs .swiper-slide{
+  padding:40px;
+}
+*/
+
+.tabs img{
+  height:200%;
+  width:150%;
+}
+
 
 /*--------------------------------------------------------------
 # Services 2 Section

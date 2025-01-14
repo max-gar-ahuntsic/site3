@@ -6,6 +6,7 @@
     "txt-intro-15": "créatif.&nbspversatile.&nbspméthodique.",
     "txt-intro-under-picture": "Développement logiciel visant l'intégration des meilleures pratiques en CONCEPTION LOGICIELLE, PROGRAMMATION, PLANIFICATION, SÉCURITÉ, INFOGRAPHIE, DÉPLOIEMENT...",
     "txt-intro-under-picture-2": "Cultiver l'émerveillement et la soif de connaissances.",
+    
     "txt-demo-node-vue-button-1":"voir la démo en ligne",
     "txt-demo-node-vue-05": "Node.js, Express.js, Vue, Vuetify, MySQL, Docker.",
     "txt-demo-node-vue-10": "Démo 'boutique-en-ligne'",
@@ -19,6 +20,41 @@
     "txt-demo-node-vue-50": "Vuetify",
     "txt-demo-node-vue-52": "Les paramètres par défaut de Vuetify permettent de rendre des effets visuels assez modernes et élégants.",
     "txt-demo-node-vue-60": "Authentification",
-    "txt-demo-node-vue-62": "L'authentification met en branle un module externe Node qui implémente la gestion des utilisateurs basée sur les sessions, donc un cookie est passé en aller-retour entre le serveur et le client alors que la session est vraiment gèrée côté serveur."
+    "txt-demo-node-vue-62": "L'authentification met en branle un module externe Node qui implémente la gestion des utilisateurs basée sur les sessions, donc un cookie est passé en aller-retour entre le serveur et le client alors que la session est vraiment gèrée côté serveur.",
+
+    "txt-programmation-02": "Techniques & languages", 
+    "txt-programmation-04": "Programmation",
+    "txt-programmation-20": "CRUD",
+    "txt-programmation-22": "Create Read Update Delete",
+    "txt-programmation-30": "Prog. Oritentée Objet (POO)",
+    "txt-programmation-32": "Héritage, polymorphisme...",
+    "txt-programmation-40": "Patrons de conception",
+    "txt-programmation-42": "'design patterns' ; Singleton, Factory ...",
+    "txt-programmation-50": "Performance",
+    "txt-programmation-52": "Fonctions Asynchrones, Threads, 'event-driven', benchmarks, etc.",
+    "txt-programmation-60": "Réactivité",
+    "txt-programmation-62": "('responsive web design')",
+    "txt-programmation-70": "JSON",
+    "txt-programmation-72": "JavaScript Object Notation",
+    "txt-programmation-99": "HTML, CSS, Javascript, Bootstrap, Vue, React // Python, PHP,  C#, Node.js, Java, // SQL, MongoDb ...",
+
+    "txt-conception-02": "Diagrammes UML, etc.",
+    "txt-conception-04": "Conception logicielle", 
+    "txt-conception-10": "Collecte d'information",
+    "txt-conception-15": "Cahier de charge",
+    "txt-conception-16": "Énoncé des partis, du projet",
+    "txt-conception-20": "Diagramme de Classe",
+    "txt-conception-21": "Liens entre les classses",
+    "txt-conception-25": "Diagramme de Base de Donnée",
+    "txt-conception-26": "Liens entre les tables",
+    "txt-conception-30": "Diagramme d'Activités",
+    "txt-conception-31": "Enchaînement des opérations",
+    "txt-conception-35": "Planification Agile",
+    "txt-conception-36": "Planification des livrables, flexibilité"
+
+
+
+
+    
     
 }

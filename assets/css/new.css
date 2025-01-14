@@ -1,4 +1,11 @@
 
+/*
+div > section :not(#intro){
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+}*/
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -12,12 +19,18 @@
     height:415px;
     /*height: 100%;*/
     object-fit: cover;
+    /*width:100%;*/
     /*z-index: 1;*/
+    /*text-align:left;*/
+    left:0px;
+    @media only screen and (min-width: 1200px) {
+        width:100%;
+    }
   }
 
 .intro h1{
     margin-top:80px;
-    color:rgb(230, 230, 230);
+    color:rgb(243, 243, 243);
     text-shadow: 0px 0px 15px black,  0px 0px 15px black, 0px 0px 15px black, 0px 0px 15px black;
 }
 
@@ -39,9 +52,78 @@
   }
 
   #txt-intro-under-picture{
-    margin-top: 140px;
+    margin-top: 20px;
+    /*margin-top: 140px;*/
+  } 
+  
+
+
+
+  /*--------------------------------------------------------------
+  # LOGO BANNER
+  --------------------------------------------------------------*/
+
+  .logo-banner .init-swiper-2 {
+    margin-top: 105px;
+    /*background-color:rgb(70, 66, 73);*/
+
   }
 
+  /*
+  #intro .init-swiper .swiper-slide {
+   }
+   */
+
+  .logo-banner .init-swiper img {
+    /*max-height: 35px;*/
+    object-fit: fill; /*allows for uneven stretch img*/
+    margin: 5px 60px 5px;
+    position:static;
+    width:70px;
+    height:40px;
+  }
+
+  .logo-banner .swiper-wrapper{
+    transition-timing-function : linear;
+  }
+  
+  .logo-banner .swiper-pagination {
+    position: absolute;
+    bottom: 30px;
+  }
+  
+  .logo-banner .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 5px;
+    background: #ffffff;
+    opacity: 0.9;
+  }
+  
+  .logo-banner .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--accent-color);
+    opacity: 1;
+  }
+  
+  .logo-banner .section-subtitle {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    color: var(--default-color);
+  }
+
+
+
+  /*
+  #carouselBannerTechIcons{
+    margin-top: 90px;
+    height:80px;
+    width:100%;
+  
+  }
+  #carouselBannerTechIcons img{
+    height: 60px;
+    position: static;
+  }
+  */
 
 /*--------------------------------------------------------------
 # demo-node-vue Section
@@ -51,7 +133,7 @@
   #demo-node-vue-section  {
     /* background-color: black; */
     /*background-image:  url("../img-new/demo-node-vue/BlackAbstractBackground-08-nGoldenSparks-darker.png");*/
-    background-image:  url("../img-new/demo-node-vue/BlackAbstractBackground-08-nGoldenSparks-darker.png");
+    background-image:  url("../img-new/demo-node-vue/demo-node-vue--bg.png");
     background-size:100% 100%;
     /*background-size: cover;*/
   }
@@ -80,6 +162,12 @@
 
   }
   
+  .demo-node-vue h4 {
+    color: rgb(32, 27, 39);
+ 
+
+  }
+
   .demo-node-vue p {
     line-height: 1.7;
     color: var(--default-color);
@@ -110,6 +198,7 @@
 
   .demo-node-vue .init-swiper img {
     max-height:270px;
+    height:215px;
   }
 
   .demo-node-vue .swiper-wrapper{
@@ -183,3 +272,93 @@
   }
   */
   
+
+/*--------------------------------------------------------------
+# Section :  Programmation
+--------------------------------------------------------------*/
+
+  #programmation{
+    background-image:  url("../img-new/demo-node-vue/demo-node-vue--bg.png");
+    /*opacity: 0.5;*/
+    background-size:100% 100%; 
+    /*color:rgb(250, 236, 172);*/
+  }
+
+  /* AFFECTS LOGO BANNER */
+  #programmation-bg-image-2{
+    position: absolute;
+    /*inset: 0;*/
+    display: block;
+    /*width: 100%;*/
+    /*width: 1300px;*/
+    /*height:415px;*/
+    /*height: 100%;*/
+    /*object-fit: cover;*/
+    /*z-index: 1;*/
+    width:100%;
+    max-height: 600px;
+    /*opacity:0.5;*/
+    /*filter: contrast(150%);*/
+    /*filter:grayscale(100%);*/
+  }
+
+  .bg-filter{
+    /*opacity: 1;
+
+    background-size:100% 100%; 
+    background-color: rgba(236, 236, 236, 0.384);*/
+
+  }
+
+  #programmation .container{
+
+  }
+
+  #programmation{
+    /*background-color: red;*/
+  }
+
+  #programmation p, h4,h5{
+    color:rgb(236, 234, 236);
+  }
+
+  #programmation p{
+    color:rgb(248, 246, 213);
+  }
+  #programmation h3{
+    color:rgb(223, 221, 221);
+    text-align:center;
+  }
+  .programmation-title{
+    background-color: rgba(67, 57, 82, 0.363);
+    /*width:100%;*/
+    opacity:0,5;
+    color:rgb(228, 225, 225);
+    text-align:center;
+    padding-left:30px;
+  }
+
+  .programmation .section-subtitle{
+    color:rgb(177, 177, 177);
+  }
+
+  #json-image{
+    /* background-color: black; */
+    /*background-image:  url("../img-new/demo-node-vue/BlackAbstractBackground-08-nGoldenSparks-darker.png");*/
+    background-image:  url("../img-new/programmation/json-bourne.webp"); 
+    background-size:100% 100%; 
+    max-width: 300px;
+
+    /*
+    background-image:  url("../img-new/demo-node-vue/demo-node-vue--bg.png");
+    */
+    /*background-size: cover;*/
+    /*background-color: red;*/
+  }
+
+
+  #programmation-scriptWrite{
+    font-size:larger;
+    font-family: "Lucida Console", "Courier New", monospace;
+    min-height:75px;
+  }

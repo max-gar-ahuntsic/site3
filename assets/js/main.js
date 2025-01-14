@@ -6,7 +6,10 @@
 * License: https://bootstrapmade.com/license/
 */
 
-(function() {
+my_main();
+
+//(function() {
+function my_main(){
   "use strict";
 
  
@@ -109,9 +112,13 @@
    */
   new PureCounter();
 
+
+
+
   /**
    * Init swiper tabs sliders
    */
+  /*
   function initSwiperTabs() {
     document
       .querySelectorAll(".init-swiper-tabs")
@@ -158,8 +165,11 @@
       }
     });
   }
-
   window.addEventListener("load", initSwiperTabs);
+
+*/
+
+
 
   /**
    * Initiate glightbox
@@ -201,4 +211,5 @@
 
   });
 
-})();
+}
+//})();

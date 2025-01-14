@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img-new/_favicon/favicon-32x32.png" rel="icon">
+  <link href="assets/img-new/-favicon/favicon-32x32.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -54,19 +54,17 @@
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">...</h1>
       </a>
-
+      <!--  -->
       <nav id="navmenu" class="navmenu">
         <ul>
-
           <li><a href="#intro" class="active">Intro</a></li>
-          <li><a href="#demo-node-vue">Demo boutique</a></li>
+          <li><a href="#demo-node-vue-section">Demo boutique</a></li>
+          <li><a href="#programmation">Programmation</a></li>
+          <li><a href="#conception-section">Conception</a></li>
+          <li><a href="#infographie-section">Design graphique</a></li>
+          <li><a href="#footer">Contact</a></li>
 
-          <li><a href="index.html" >Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+ 
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -92,7 +90,7 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main py-0">
     <!-- AVEC JQUERY -->
     <!--  <div id="ContentToInclude"></div> -->
     <!-- <h1 id="output"></h1>  -->
@@ -104,25 +102,36 @@
     <div id="temp-placeholder" style="height: 500px; background-color: red;"></div>
     -->
     
-    <div data-partial="view-partials/index.html/intro.html"></div>
-    <div data-partial="view-partials/index.html/demo-node-vue.html"></div>
+    <div data-partial="view-partials/index.html/-intro.html"></div>
+    <div data-partial="view-partials/index.html/demo-boutique.html"></div>
+    <div style="background-color: rgb(255, 255, 255); height:55px">
+      <div class="py-0 my-0" data-partial="view-partials/index.html/demo-boutique-carousel-indicators.html"></div>
+    </div>
+    <div data-partial="view-partials/index.html/programmation.html"></div>
+    <div data-partial="view-partials/index.html/conception.html"></div>
+    <div data-partial="view-partials/index.html/infographie.html"></div>
+
+    <div data-partial="view-partials/index.html/--footer.html"></div>
     
-    <!--
-    <div data-partial="view-partials/index-old.html/_about.html"></div>
-    <div data-partial="view-partials/index-old.html/_about2.html"></div>
+
+    
+
+
+    <!-- 
+    <div data-partial="view-partials/index-old.html/-about.html"></div>
+    <div data-partial="view-partials/index-old.html/-about2.html"></div>
     <div data-partial="view-partials/index-old.html/services.html"></div>
     <div data-partial="view-partials/index-old.html/stats.html"></div>
     <div data-partial="view-partials/index-old.html/blogPosts.html"></div>
-    <div data-partial="view-partials/index-old.html/tabs.html"></div>
+    -->
+    <!-- <div data-partial="view-partials/index-old.html/tabs.html"></div> -->
+    <!--
     <div data-partial="view-partials/index-old.html/services2.html"></div>
     <div data-partial="view-partials/index-old.html/pricing.html"></div>
     <div data-partial="view-partials/index-old.html/faq.html"></div>
     <div data-partial="view-partials/index-old.html/testimonials.html"></div>
+    -->
   
-    <div data-partial="view-partials/index.html/__footer.html"></div>
-  -->
-    
-
   </main>
 
   
@@ -159,8 +168,12 @@
   
 
   <!-- New -->
-  <script src="assets/js/on-partials-inserted.js"></script> 
-  <script src="assets/js/insert-partials.js"></script> 
+  <script src="assets/js/after-partials-inserted.js"></script> 
+  <script src="assets/js/partial-intro.js"></script> 
+  <script src="assets/js/partial-demo-boutique.js"></script> 
+  <script src="assets/js/partial-programmation.js"></script> 
+  
+  <script src="assets/js/-insert-partials.js"></script> 
   <!--  <script src="assets/js/language.js"></script>  -->
 
 </body>

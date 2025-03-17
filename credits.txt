@@ -1,0 +1,8 @@
+
+
+Ce site a contient du code provenant du 'template' Active par Boostrapmade.
+
+La module Animated Headlines par Cody House sert à animer le lettrage
+sur la page d'introduction.
+
+

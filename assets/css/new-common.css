@@ -1,0 +1,95 @@
+
+
+/*
+GOLD:
+#infographie.tabs .service-item.link.active {
+  border-color: rgb(138, 138, 33);
+}
+*/
+
+*{
+  --golden-dark: rgb(138, 138, 33);
+}
+
+
+/*--------------------------------------------------------------
+# section defaults
+--------------------------------------------------------------*/
+
+/* toutes les sections, sauf intro*/
+/*
+#perso, #section-applications, #competences-header, #programmation, 
+#section-applications, #footer2, #competences-header {
+  */
+
+section:not(#intro, #footer2){
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:150px;
+    padding-bottom:160px;
+  }
+section#intro{
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-bottom:160px;
+}
+section#footer2{
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:150px;
+}
+
+
+
+h3{
+  font-size: 30px;
+}
+
+
+/*--------------------------------------------------------------
+# buttons defaults
+--------------------------------------------------------------*/
+
+
+.btn-dark-standard {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid transparent;
+    transition: 0.3s all ease-in-out;
+    font-size: 14px;
+  }
+  
+  .btn-dark-standard:hover {
+    border-color: var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+  }
+  
+  
+  
+  .btn-light-standard {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: 2px solid transparent;
+    transition: 0.3s all ease-in-out;
+    font-size: 14px;
+  }
+  
+  .btn-light-standard:hover {
+    border-color: var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color);
+  }
+  
+.filtre-noir{
+  background-image:  url("../img-new/-common/filter-black-75-pourcent.png");
+
+}
+.filtre-noir-25{
+  background-image:  url("../img-new/-common/filter-black-25-pourcent.png");
+
+}

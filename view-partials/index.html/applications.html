@@ -1,0 +1,106 @@
+
+<!-- *** BON
+onClick="document.getElementById('tess-modal-carousel').style.display = 'none'; "
+-->
+
+<!-- Programmation Section -->
+<!-- 25-02-27--- my-0 pb-3 pt-5  -->
+<section id="section-applications" class="section  px-5" style="min-height: 400px; position:relative;">
+  <span id="section-applications-"></span>
+  <div class="container p-5 m-0" style="padding:0px;min-width:100% !important; ">
+    <div class="row">
+      <div class="titles-on-dark-bg p-4" data-aos="fade-up" data-aos-duration="1500">
+        <span id="txt-applications-02" class="section-subtitle pt-4 mt-4" ></span>
+        <h3 id="txt-applications-04"   class="" ></h3>
+      </div>
+    </div>
+
+    <div  class="row" style="min-height:70px">
+    </div>
+    <div id="app-target-scrollview" class="row" style="min-height:55px">
+    </div> 
+    <div id="app-modal-carousel" class="row mx-0 px-0 py-0 modalFolded"  >
+      <div  id="carouselExampleControls2" class="carousel slide carousel-fade m-0 p-0" >
+        <div class="carousel-inner m-0 p-0" style=" min-width:100%">
+          <!-- items ---------------->
+          <!---  MARCHAIT; PR SLIDE-1 style="max-height:3px;flex-shrink:0.2;"  ----->
+          <div id="app-slide-1" class="carousel-item  app-slide active " style="background-color:rgb(187, 253, 203);" >
+            <!-- <div style=" min-height:400px;"> -->
+              <!-- class="py-0 my-0"  -->
+              <div data-partial="view-partials/index.html/apps-demo-boutique.html">
+              </div>
+              <div data-partial="view-partials/index.html/apps-demo-boutique-carousel-indicators.html">
+              </div>
+            <!-- </div> -->       
+          </div>
+          <!---   onClick="hide_app_carousel()"   -->
+          <div id="app-slide-2" class="carousel-item app-slide " >
+            <div>
+              <div data-partial="view-partials/index.html/apps-rencontre.html">
+              </div>
+            </div>
+          </div>
+          <div id="app-slide-3" class="carousel-item app-slide ">
+            <div>
+              <div data-partial="view-partials/index.html/apps-incidents-route.html">
+              </div>
+            </div>
+          </div>
+          <div id="app-slide-4" class="carousel-item app-slide" >
+            <div>
+              <div data-partial="view-partials/index.html/apps-hd-assist.html">
+              </div>
+            </div>
+          </div>
+          <div id="app-slide-5" class="carousel-item app-slide" >
+            <div>
+              <div data-partial="view-partials/index.html/apps-test-assist.html">
+              </div>
+            </div>
+          </div>
+          <!-- controls  / arrows ---------------->
+        </div>
+
+        <div id="app-close-button"  onClick="show_app_slide('toggle-carousel',0)"></div>
+      </div>
+
+      <!-- top:150px; -->
+      <!-- <div id="app-carousel-icon-container" class=" app-carousel-icon-container-outside"> -->
+      <div id="app-carousel-icon-container" class=" app-carousel-icon-container-outside"> 
+        <div id="app-icon-button-1" onclick="show_app_slide('select-slide', 1)" class="col app-icon app-icon-outside  m-2" data-aos="fade-up" data-aos-duration="1500" >
+            <p></p>
+        </div>
+        <div id="app-icon-button-2" onclick="show_app_slide('select-slide', 2)" class="col app-icon app-icon-outside m-2" data-aos="fade-up" data-aos-duration="1500" >
+          <p></p>
+        </div>
+        <div id="app-icon-button-3" onclick="show_app_slide('select-slide', 3)" class="col  app-icon app-icon-outside  m-2" data-aos="fade-up" data-aos-duration="1500" >
+          <p></p>
+        </div>               
+        <div id="app-icon-button-4" onclick="show_app_slide('select-slide', 4)" class="col  app-icon app-icon-outside m-2" data-aos="fade-up" data-aos-duration="1500" >
+          <p></p>
+        </div>   
+        <div id="app-icon-button-5" onclick="show_app_slide('select-slide', 5)" class="col  app-icon app-icon-outside m-2" data-aos="fade-up" data-aos-duration="1500" >
+          <p></p>
+        </div>   
+      </div>
+
+    </div>
+
+    <button style="left:0px; top:40%;height:100px; width:100px;" class="carousel-control-next app-button" type="button" onclick="show_app_slide('next-slide',0)"  data-bs-slide="next">
+      <!-- <span style="background-color:  rgba(0,0,0,.5); padding:5px;box-shadow: 0px 0px 3px 3px rgba(0,0,0,.5);"> -->
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      <!-- </span> -->
+    </button>
+    <button style="right:0px; top:40%;height:100px; width:100px;" class="carousel-control-next app-button" type="button" onclick="show_app_slide('next-slide',0)"  data-bs-slide="next">
+      <!--  <span id="app-button-arrow-next"> -->
+           <!-- BON - style="background-color:  rgba(0,0,0,.5); padding:5px; box-shadow: 0px 0px 3px 3px rgba(0,0,0,.5);"> -->
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div  class="row" style="min-height:250px"></div>
+</section><!-- /About Section -->
+
+
+

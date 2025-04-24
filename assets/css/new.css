@@ -1158,7 +1158,7 @@ background-size: 100% 100%;
   z-index: 10;
   background-size: 100% 100%; 
   /*opacity:0.35;*/
-  /*opacity:0.02;*/
+  opacity:0.02;
   transition: opacity ease-in-out 25ms;
   transition: transform 1s;
   /*transition: opacity ease-in-out 25ms;*/

@@ -13,3 +13,5 @@ La module Animated Headlines par Cody House sert à animer le lettrage
 sur la page d'introduction.
 
 
+-----------------.
+

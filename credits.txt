@@ -1,17 +1,8 @@
 
-25-04-29---
 
 Ce site a contient du code provenant du 'template' Active par Boostrapmade.
-Template Name: Active
-Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
-
-
 
 La module Animated Headlines par Cody House sert à animer le lettrage
 sur la page d'introduction.
 
-
----------.
 

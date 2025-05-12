@@ -106,6 +106,7 @@
     "txt-apps-rencontre-04": "SO2M - site de rencontre",
     "txt-apps-rencontre-10": "Contexte",
     "txt-apps-rencontre-12": "SO2M est un projet d'équipe dans le cadre de mon AEC, qui consistait à créer un site de rencontre novateur où les suggestions de profils utilisateurs proposés ('matchs') étaient basées sur des théories provenant du domaine de la psychologie sociale.",
+    
     "txt-apps-rencontre-20": "Technologies",
     "txt-apps-rencontre-22": "Côté backend, C# et .NET Core ont été utilisés. Frontend:  Vanilla Javascript. Base de donnée: MySQL via Entity Framework.",
     "txt-apps-rencontre-30": "Code First",
@@ -120,7 +121,6 @@
     "txt-apps-rencontre-72": "Avec ******* .",
     "txt-apps-rencontre-80": "CORS / cross-origin",
     "txt-apps-rencontre-82": "'Cross-origin resource sharing' (CORS) a été implémenté afin de permettre un développement découplé sur deux domaines distincts.",
-
 
     "txt-apps-boutique-ordis-02": "Simulation",
     "txt-apps-boutique-ordis-04": "Boutique d'ordinateurs",
@@ -165,7 +165,7 @@
     "txt-apps-hdassist-20": "Technologies", 
     "txt-apps-hdassist-22": "Hd-Assist est une application de bureau, modelée sur les applications web (de type 'Electron'). Le backend est en python, alors que le frontend utilise les technologie web usuelles.",
     "txt-apps-hdassist-30": "Technologies (suite)",
-    "txt-apps-hdassist-32": "Des threads permettent au backend de convertir et consumer les sources de données pendant que l'utilisateur peut consulter les raports.<b> Les rapports et les données de l'application sont sauvegardées en format JSON. <b> Le module ****** trouve et extrait les tables à l'intérieur des fichiers PDF.",
+    "txt-apps-hdassist-32": "Des threads permettent au backend de convertir et consumer les sources de données pendant que l'utilisateur peut consulter les raports. Les rapports et les données de l'application sont sauvegardées en format JSON. Le module ****** trouve et extrait les tables à l'intérieur des fichiers PDF.",
     "txt-apps-hdassist-40": "Documentation",
     "txt-apps-hdassist-42": "Une documentation étayée a été fournie au responsable.",
 

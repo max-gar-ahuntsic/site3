@@ -1,8 +1,7 @@
 
 25-05-09---
-Ce site a contient du code provenant du 'template' Active par Boostrapmade, 
-en particulier pour le Menu et la fonction qui sert à souligner l'élément du Menu
-qui correspond à la section qui est visitée en temps réel par l'utilisteur.
+Ce site a contient du code provenant du gabarit Active par Boostrapmade, 
+en particulier pour le Menu et la navigation.
 
 
   <!-- =======================================================

@@ -3,7 +3,7 @@
     "txt-intro-12": "et&nbspd'applications&nbspde&nbspbureau.",
     "txt-intro-13": "multi-plateforme&nbsp(PC,&nbspmobile...).",
     "txt-intro-14": "bases&nbspde&nbspdonnées.",
-    "txt-intro-15": "versatile.&nbspméthodique.&nbspaxé&nbsprésultats.",
+    "txt-intro-15": "polyvalent.&nbspméthodique.&nbspaxé&nbsprésultats.",
     "txt-intro-under-picture": "Développement logiciel visant l'intégration des meilleures pratiques en conception logicielle, programmation, planification, sécurité, infographie, déploiement...",
     "txt-intro-under-picture-2": "Cultiver l'émerveillement et la soif de connaissances.",
     
@@ -17,7 +17,7 @@
     "txt-perso-14": "Ce site est un <i>'work-in-progress'</i> -- des éléments sont constamment modifiés / améliorés / ajoutés.",
     "txt-perso-15": "Pour toute question, n'hésitez pas à entrer en contact avec moi.  Bonne visite.",
     "txt-perso-22": "AEC - Développement de Sites Web Transactionnels",
-    "txt-perso-24": "2024",
+    "txt-perso-24": "2024<br>Collège Ahuntsic<br>1170 heures",
     "txt-perso-25": "Collège Ahuntsic",
     "txt-perso-26": "1170 heures",
     "txt-perso-27": "Ce programme forme des développeurs à l'ensemble des pratiques et des technologies modernes courramment utilisées dans la développement des sites webs  -- qu'ils soient 'transactionnels' ou non (HTML, CSS, Javascript, Python, PHP, C# / Asp.Net / Net Core, Node, SQL, MongoDb, UML, etc)**.",
@@ -31,7 +31,7 @@
     "txt-perso-40": "Administration / gestion d'utilisateurs / Active Directory",
     "txt-perso-42": "Fonctionnement interne des ordinateurs",
     "txt-perso-44": "Linux (serveur, admin et gestion utilisateurs)",
-    "txt-perso-52": "Cours de Perfectionnement à la carte en programmation",
+    "txt-perso-52": "Cours de Perfectionnement à la carte",
     "txt-perso-54": "CodeIgniter, WordPress, ASP.net..." ,
     "txt-perso-60": "Autres Domaines",
     "txt-perso-61": "<u>Bachelor es arts (Major in Philosophy)</u><br>- University of Waterloo (Ontario)<br>- ‘Dean’s Honor’s List’",
@@ -40,24 +40,29 @@
 
     "txt-programmation-02": "Techniques & languages", 
     "txt-programmation-04": "Programmation",
-    "txt-programmation-20": "CRUD",
-    "txt-programmation-22": "Create Read Update Delete",
-    "txt-programmation-30": "Prog. Oritentée Objet (POO)",
-    "txt-programmation-32": "Héritage, polymorphisme...",
-    "txt-programmation-40": "Patrons de conception",
-    "txt-programmation-42": "'design patterns' ; Singleton, Factory ...",
-    "txt-programmation-50": "Performance",
-    "txt-programmation-52": "Fonctions Asynchrones, Threads, 'event-driven', benchmarks, etc.",
+
+
+    "txt-programmation-20": "Prog. Oritentée Objet (POO)",
+    "txt-programmation-22":   "Héritage, polymorphisme...",
+    "txt-programmation-30": "Rest API & CRUD",
+    "txt-programmation-32":   "GET, POST, PUT, and DELETE ; Create Read Update Delete",
+    "txt-programmation-40": "JSON",
+    "txt-programmation-42":   "JavaScript Object Notation",
+
+    "txt-programmation-50": "Agile",
+    "txt-programmation-52":   "Axé livrables, rétroactions entre acteurs.",
     "txt-programmation-60": "Réactivité / Adaptativié",
-    "txt-programmation-62": "Interfaces s'adaptant au mobile & la tablette",
-    "txt-programmation-70": "JSON",
-    "txt-programmation-72": "JavaScript Object Notation",
+    "txt-programmation-62":   "Interfaces s'adaptant au mobile & la tablette",
+    "txt-programmation-70": "Patrons de conception",
+    "txt-programmation-72":   "'design patterns' ; Singleton, Factory ...",
+
+
     "txt-programmation-80": "Sécurité",
-    "txt-programmation-82": "Validation, prévention Injection SQL...",
-    "txt-programmation-90": "Agile",
-    "txt-programmation-92": "Axé livrables, rétroactions entre acteurs.",
+    "txt-programmation-82":   "Validation, prévention Injection SQL...",
+    "txt-programmation-90": "Performance",
+    "txt-programmation-92":   "Fonctions Asynchrones, Threads, 'event-driven', benchmarks, etc.",
     "txt-programmation-100": "Documentation",
-    "txt-programmation-102": "Swagger, etc",
+    "txt-programmation-102":   "Swagger, etc",
     "txt-programmation-99": "HTML, CSS, Javascript, Bootstrap, Vue, React // Python, PHP,  C#, Node.js, Java, // SQL, MongoDb ...",
 
 
@@ -124,10 +129,14 @@
     "txt-en-cours-63": "service de bases de connaissances à contribution collective",
 
 
-    "txt-applications-02": "Apperçus & discussion",
-    "txt-applications-04": "Applications",
 
-    "txt-demo-node-vue-button-1":"voir la démo en ligne",
+
+
+    "txt-applications-02": "Apperçus & discussion",
+    "txt-applications-04": "Apps - clichés",
+    "txt-applications-06": "Survol de quelques projets réalisés en AEC et lors du stage qui a suivi.",
+
+    
     "txt-demo-node-vue-05": "Node.js, Express.js, Vue, Vuetify, MySQL, Docker.",
     "txt-demo-node-vue-10": "Démo 'boutique-en-ligne'",
     "txt-demo-node-vue-15": "Contexte",
@@ -141,26 +150,55 @@
     "txt-demo-node-vue-52": "Les paramètres par défaut de Vuetify permettent de rendre des effets visuels assez modernes et élégants.",
     "txt-demo-node-vue-60": "Authentification",
     "txt-demo-node-vue-62": "L'authentification met en branle un module externe Node qui implémente la gestion des utilisateurs basée sur les sessions, donc un cookie est passé en aller-retour entre le serveur et le client alors que la session est vraiment gèrée côté serveur.",
+    "txt-demo-node-vue-button-1":"voir la démo en ligne",
 
     "txt-apps-rencontre-02": "C#, .NET Core, Entity Framework, MySQL",
     "txt-apps-rencontre-04": "SO2M - site de rencontre",
     "txt-apps-rencontre-10": "Contexte",
     "txt-apps-rencontre-12": "SO2M est un projet d'équipe dans le cadre de mon AEC, qui consistait à créer un site de rencontre novateur où les suggestions de profils utilisateurs proposés ('matchs') étaient basées sur des théories provenant du domaine de la psychologie sociale.",
-    
     "txt-apps-rencontre-20": "Technologies",
-    "txt-apps-rencontre-22": "Côté backend, C# et .NET Core ont été utilisés. Frontend:  Vanilla Javascript. Base de donnée: MySQL via Entity Framework.",
-    "txt-apps-rencontre-30": "Code First",
-    "txt-apps-rencontre-32": "L'implémentation s'est fait en mode Code First, alors que les tables de la base de donnée a été générée automatiquement à partir des classes.",
-    "txt-apps-rencontre-40": "Entity Framework",
-    "txt-apps-rencontre-42": "L'ORM (Object–Relational Mapping) Entity Framework est utilisé pour modeler les données de la base de donnée en objets.", 
-    "txt-apps-rencontre-50": "CRUD API",
-    "txt-apps-rencontre-52": "Les routes du backend correspondent aux opérations CRUD (create, read, update, delete).",
-    "txt-apps-rencontre-60": "Swagger",
-    "txt-apps-rencontre-62": "Swagger a été utilisé pour tester et documenter l'API.",
-    "txt-apps-rencontre-70": "Authentification",
-    "txt-apps-rencontre-72": "Avec ******* .",
-    "txt-apps-rencontre-80": "CORS / cross-origin",
-    "txt-apps-rencontre-82": "'Cross-origin resource sharing' (CORS) a été implémenté afin de permettre un développement découplé sur deux domaines distincts.",
+    "txt-apps-rencontre-22": "Backend: C# et .NET Core;<br>Frontend:  HTML CSS Javascript;<br>Base de donnée: MySQL;<br>ORM: Entity Framework (en 'code first');<br>Documentation: Swagger;",
+    "txt-apps-rencontre-30": "CRUD / REST API",
+    "txt-apps-rencontre-32": "Les routes du backend correspondent aux opérations CRUD (create, read, update, delete).",
+
+
+    "txt-apps-incidents-route-02": "Analyse et présentation de données", 
+    "txt-apps-incidents-route-04": "Incidents Routiers à Montréal", 
+    "txt-apps-incidents-route-10": "Contexte",
+    "txt-apps-incidents-route-12": "Travail d'équipe dans le cadre de mon AEC.  Le site est un service web qui consomme l'API de la Ville de Montréal sur les incidents routiers de la dernière décénnie afin de calculer diverses statistiques d'intérêt et présente ces résultats sous forme de tableaux.",
+    "txt-apps-incidents-route-20": "Technologies",
+    "txt-apps-incidents-route-22": "Backend: Node.js et Express.js.<br>Frontend:  HTML / CSS / Javascript et Boostrap.<br>Base de données: MongoDB.  <br>'Template engine': EJS.",
+    "txt-apps-incidents-route-30": "Cartographie en ligne",
+    "txt-apps-incidents-route-32": "Le service OpenStreeMap a été utilisé pour présenter à l'utilisateur une carte géographique situant les informations pertinentes.",
+
+
+    "txt-apps-hdassist-02": "Aide à la gestion d'inventaire",
+    "txt-apps-hdassist-04": "HD-Assist",
+    "txt-apps-hdassist-10": "Contexte",
+    "txt-apps-hdassist-12": "Lors de mon stage dans une entreprise de reconditionnement et de recyclage d'ordinateurs, j'étais convié à soumettre un prototype de logiciel capable d'examiner différentes sources de données (bases de données, fichiers Excel, PDFs, HTMLs) afin de recouper l'information et déceler des incongruités qui auraient pu se glisser dans l'identification des composantes pour les différents procédés.<br> (Par exemple, les identifiants des disques durs peuvent parfois être difficiles à récupérer lorsqu'ils sont trop vieux, endommagés ou incompatibles; les étiquettes peuvent aussi être illisibles ou contenir de l'information ambigue.)(Par respect pour l'entreprise, les données utilisées ont été modifiées).",
+    "txt-apps-hdassist-20": "Technologies", 
+    "txt-apps-hdassist-22": "<table>  <tr>    <td> language principal: </td>    <td> Python</td></tr>  <tr>   <td> interface graphique:  </td>    <td> web (HTML, CSS, Javascript) </td> </tr>  <tr>    <td> com BE FE:  </td>    <td> Eel</td>  </tr>  <tr>    <td> extration PDF: </td>    <td> PyMuPDF</td>  </tr>  <tr>    <td> extration Excel:  </td>    <td> Openpyxl</td>  </tr></table>",
+    "txt-apps-hdassist-30": "Discussion",
+    "txt-apps-hdassist-32": "Des threads sont utilisés pour permettre à l'application de travailler (extraction & analyse des données) pendant que l'utilisateur examine les données. <br>Eel permet de réaliser des applications locales de type Electron et donc de tirer profiter des possibilités des technologies web pour la réalisation d'interfaces graphiques.",
+
+
+    "txt-apps-testsassist-02": "Gestionnaire de tests de composantes informatiques",
+    "txt-apps-testsassist-04": "insertech tests-assist",
+    "txt-apps-testsassist-10": "Contexte",
+    "txt-apps-testsassist-12": "Hd-Assist est une application que j'ai faite pour l'entreprise Insertech lors de mon stage pour mon AEC.  L'application guide les participants au parcour 'assembleur' d'Insertech lors des tests.  ",
+    "txt-apps-testsassist-20": "Technologies",
+    "txt-apps-testsassist-22": "Hd-Assist est une application de bureau, modelée sur les applications web (de type 'Electron'). Le backend est en python, alors que le frontend utilise les technologie web usuelles.",
+    "txt-apps-testsassist-30": "Personalisation",
+    "txt-apps-testsassist-32": "L'application permet aux Superviseurs d'Insertech de modifier l'ensemble des paramètre :  Ajout, effacement, modification des tests.  Modification des informations fournies aux utilisateurs via l'application relativement aux bonnes pratiques en vigueur lors de la réalisation des tests.",
+    "txt-apps-testsassist-40": "Augmentation en temps réel",
+    "txt-apps-testsassist-42": "Toutes les modifications à l'application sont prises en charge sans devoir redémarrer l'application.  Cet avantage permet d'évaluer facilement si les modifications apportées par les Superviseurs correspond aux résultats souhaités.",
+
+
+
+
+
+
+
 
     "txt-apps-boutique-ordis-02": "Simulation",
     "txt-apps-boutique-ordis-04": "Boutique d'ordinateurs",
@@ -170,19 +208,6 @@
     "txt-apps-boutique-ordis-22": "PHP (sans quadriciel) a été utilisé côté backend.  Au frontend, les technologies d'usage ont été utilisées en plus de Bootstrap. Base de donnée:  MySQL.",
     "txt-apps-boutique-ordis-30": "Hébergement de la base de donnée",
     "txt-apps-boutique-ordis-32": "La BD était hébergée sur xyz.",
-
-
-    "txt-apps-incidents-route-02": "Analyse et présentation de données", 
-    "txt-apps-incidents-route-04": "Incidents Routiers à Montréal", 
-    "txt-apps-incidents-route-10": "Contexte",
-    "txt-apps-incidents-route-12": "Travail d'équipe à deux dans le cadre de mon AEC.  Le site est un service web qui consume l'API de la Ville de Montréal sur les incidents routiers de la dernière décénnie afin de calculer diverses statistiques d'intérêt et présente ces résultats sous forme de tableaux.",
-    "txt-apps-incidents-route-20": "Technologies",
-    "txt-apps-incidents-route-22": "Backend: Node.js et Express.js.  Frontend:  HTML / CSS / Javascript et Boostrap. Base de données: MongoDB.  Pour le 'text-interpolation', le module ********** a été utilisé.",
-    "txt-apps-incidents-route-30": "Geolocalisation",
-    "txt-apps-incidents-route-32": "Le service *****  a été utilisé pour présenter à l'utilisateur une carte géographique situant les informations pertinentes.",
-    "txt-apps-incidents-route-40": "Particularités",
-    "txt-apps-incidents-route-42": "Les données de la Ville de Montréal à récupérer pèsent 80 megabytes.",
-
 
 
     "txt-apps-kbhelper-02": "Système d'infos contextuelles",
@@ -196,30 +221,6 @@
     "txt-apps-kbhelper-40": "Autres",
     "txt-apps-kbhelper-42": "Des threads permettent de faire des opérations en parallèle (sans blocage).",
 
-
-
-    "txt-apps-hdassist-02": "Aide à la gestion d'inventaire",
-    "txt-apps-hdassist-04": "HD-Assist",
-    "txt-apps-hdassist-10": "Contexte",
-    "txt-apps-hdassist-12": "HD-Assist a été réalisé dans le cadre de mon stage pour mon AEC chez l'entreprise Insertech.  L'application permet à l'utilisateur d'effectuer un suivi des disques durs qui ont été traités de différentes manières par différents outils (matériels et/ou logiciels) à différents postes. Lorsque des disques durs n'ont pas été identifiés de manière identique par les différents outils, HD-Assist recoupe l'information provenant des différentes sources et soumet à l'utilisteurs une liste où les numéros de série problématiques ont été isolés et regroupés par type d'erreur.",
-    "txt-apps-hdassist-20": "Technologies", 
-    "txt-apps-hdassist-22": "Hd-Assist est une application de bureau, modelée sur les applications web (de type 'Electron'). Le backend est en python, alors que le frontend utilise les technologie web usuelles.",
-    "txt-apps-hdassist-30": "Technologies (suite)",
-    "txt-apps-hdassist-32": "Des threads permettent au backend de convertir et consumer les sources de données pendant que l'utilisateur peut consulter les raports. Les rapports et les données de l'application sont sauvegardées en format JSON. Le module ****** trouve et extrait les tables à l'intérieur des fichiers PDF.",
-    "txt-apps-hdassist-40": "Documentation",
-    "txt-apps-hdassist-42": "Une documentation étayée a été fournie au responsable.",
-
-
-    "txt-apps-testsassist-02": "Gestionnaire de tests de composantes informatiques",
-    "txt-apps-testsassist-04": "insertech tests-assist",
-    "txt-apps-testsassist-10": "Contexte",
-    "txt-apps-testsassist-12": "Test-Assist est une application que j'ai faite pour l'entreprise Insertech lors de mon stage pour mon AEC.  L'application guide les participants au parcour 'assembleur' d'Insertech lors des tests.  ",
-    "txt-apps-testsassist-20": "Technologies",
-    "txt-apps-testsassist-22": "Hd-Assist est une application de bureau, modelée sur les applications web (de type 'Electron'). Le backend est en python, alors que le frontend utilise les technologie web usuelles.",
-    "txt-apps-testsassist-30": "Personalisation",
-    "txt-apps-testsassist-32": "L'application permet aux Superviseurs d'Insertech de modifier l'ensemble des paramètre :  Ajout, effacement, modification des tests.  Modification des informations fournies aux utilisateurs via l'application relativement aux bonnes pratiques en vigueur lors de la réalisation des tests.",
-    "txt-apps-testsassist-40": "Augmentation en temps réel",
-    "txt-apps-testsassist-42": "Toutes les modifications à l'application sont prises en charge sans devoir redémarrer l'application.  Cet avantage permet d'évaluer facilement si les modifications apportées par les Superviseurs correspond aux résultats souhaités.",
 
     "txt-contact-titre": "Contact",
     "txt-contact-10": "Pour toute question, commentaire ou avoir un entretien, n'hésitez pas à me contacter à <i><u>maxime.gariepy.10@gmail.com</u></i>",

@@ -30,7 +30,7 @@ function get_all_apps_html(t){let s="";var a=[!0,!0,!0,!1];i=0;for(app_name of["
                         <!---- insert video tag conditionnally ------------------------->
                         ${i?`
                         <div id="app-video-${s}" class="video-container-2 d-flex col-12 col-lg-5 align-items-center justify-content-center"  data-aos-duration="1500">
-                            <video style="" width="375" height="280" loop muted controls controlsList="nodownload" oncontextmenu="return false;">
+                            <video style="" width="375" height="280" autoplay loop muted controls controlsList="nodownload" oncontextmenu="return false;">
                                 <source src="assets/img-new/partial-applications/app-${s}/app-${s}-video.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
